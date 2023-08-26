@@ -1,0 +1,25 @@
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navBar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-underline:visited {
+    color: white;
+}
+
+.title-box {
+    padding: 6px;              /* Spacing inside the box */
+    display: inline-block;      /* Make the box size fit the content */
+    background-color: #efcac3; /* Background color of the box */
+    border-radius: 5px;        /* Rounded corners */
+}
