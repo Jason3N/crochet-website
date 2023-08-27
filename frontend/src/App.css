@@ -1,26 +1,62 @@
 .navBar{
-  height: 30vh;
+  height: 15vh;
   background-color: #cca398;
   color: white;
   display: flex;
   flex-direction: row;
 }
 
+.container-box-for-contact{
+  margin-left: 10%;
+  width: 1500px;
+  height: 700px;
+  border-radius: 10px;
+  background-color: #A7C7E7;
+}
+
 .helvetica-font {
   font-family: 'Helvetica', Arial, sans-serif;
   font-weight: 600;
+  color: white;
+}
+
+.header-text {
+  margin-top: 2%;
+  padding-top: 2%;
+  font-size: 60px;
+  margin-left: 38%;
 }
 
 .contact-container {
-  align-items: center;
   display: flex;
   flex-direction: row;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .contact-item {
+  display: grid;
   font-weight: 400;
   font-size: 30px;
+  margin-left: 10%;
 }
 
 .margin-left5 {
   margin-left: 5%;
+}
+
+.center-text {
+  font-size: 60px;
+}
+
+.insta_logo{
+  margin-right: 0%;
+  width: 300px;
+}
+
+.venmo_logo{
+  width: 230px;
+}
+
+.gmail_logo{
+  width: 260px;
 }

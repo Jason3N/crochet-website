@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
 .navBar ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
+    height: 200px;
+    width: 100%;
     margin: 0;
-    padding: 0;
-  }
+    padding: 0 300px;
+    overflow: hidden;
+}
 
 .navBar li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0 30px;
+
 }
 
 .no-underline {
@@ -18,8 +26,9 @@
 }
 
 .title-box {
-    padding: 6px;              /* Spacing inside the box */
-    display: inline-block;      /* Make the box size fit the content */
-    background-color: #efcac3; /* Background color of the box */
-    border-radius: 5px;        /* Rounded corners */
+    padding: 6px;
+    display: inline-block;
+    background-color: #efcac3;
+    border-radius: 5px;
+    font-family: 'Calistoga', sans-serif;
 }
