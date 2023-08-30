@@ -6,3 +6,18 @@
     font-family: 'Georgia', serif;
     font-weight: bold;
 }
+
+.productgrid {
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+body .product-title {
+    font-family: 'Georgia', serif;
+    text-decoration: none !important;
+}
+
+.no-outline, .no-outline * {
+    text-decoration: none !important;
+    outline: none !important;
+  }
