@@ -13,8 +13,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 160px;
     width: 100%;
+    
+    position: sticky; 
+    z-index: 100;
+    top: 0;
 }
 
 .navBar ul {

@@ -35,13 +35,13 @@ const ProductItems = [
         name: "granny coaster",
         image: starCatBeanieImage,
         price: "$12"
-    },
+    }, 
 ];
 
 
 const Products = () => {
     return (
-        <Grid container spacing={7} className="productgrid" style={{paddingTop: '75px'}}>
+        <Grid container spacing={12} className="product-grid" style={{paddingTop: '75px'}}>
             {ProductItems.map((product) => (
                 <Grid item lg={3} key={product.id}> 
                     <RouterLink to={`/product/${product.id}`} className="no-outline">

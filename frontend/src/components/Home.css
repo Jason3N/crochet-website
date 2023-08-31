@@ -1,0 +1,18 @@
+.home-container {
+    display: flex;
+    align-items: center;  
+    gap: 20px;
+}
+
+.left-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px; 
+}
+
+.home-content {
+    flex: 1;
+    padding: 20px;
+}

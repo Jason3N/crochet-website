@@ -7,9 +7,9 @@
     font-weight: bold;
 }
 
-.productgrid {
+.product-grid {
     margin: 0 auto;
-    padding: 0 20%;
+    padding: 0 5%;
 }
 
 body .product-title {
@@ -20,4 +20,9 @@ body .product-title {
 .no-outline, .no-outline * {
     text-decoration: none !important;
     outline: none !important;
+  }
+
+  .custom_container_for_products {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
   }
