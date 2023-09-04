@@ -1,4 +1,4 @@
-import starCatBeanieImage from './product_images/starbea.jpg';
+import starCatBeanieImage from '../product_images/starbea.jpg';
 
 export const ProductItems = [
     {
