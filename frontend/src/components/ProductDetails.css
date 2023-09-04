@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+.prod-details {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    padding: 20px;
+    padding-top: 120px;
+    padding-left: 200px;
+    margin-right: 20px;
+}
+
+.prod-details-img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.prod-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prod-info h1 {
+    font-family: 'Calistoga', sans-serif;
+}
+
+.prod-info p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+}
